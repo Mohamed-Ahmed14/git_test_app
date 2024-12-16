@@ -8,6 +8,7 @@ import 'package:test_app/view_model/cubit/observing_cubit.dart';
 
 void main() {
   //welcome from intellij
+  //hello from github
   Bloc.observer = MyBlocObserver();
   runApp(MultiBlocProvider(
     providers: [
